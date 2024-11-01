@@ -5,4 +5,9 @@ public class CreditCardPayments implements PaymentsFactory {
     public int getFee() {
         return 1000;
     }
+
+    @Override
+    public void sendAmount(int amount) {
+        System.out.println(amount+"amount has been sent");
+    }
 }

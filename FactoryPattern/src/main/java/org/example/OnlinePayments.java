@@ -6,4 +6,9 @@ public class OnlinePayments implements PaymentsFactory {
 
         return 300;
     }
+
+    @Override
+    public void sendAmount(int amount) {
+        System.out.println(amount+"has been sent");
+    }
 }
