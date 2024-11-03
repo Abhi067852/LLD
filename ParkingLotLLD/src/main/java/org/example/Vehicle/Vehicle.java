@@ -14,10 +14,10 @@ public class Vehicle {
         this.license_plate_number = UUID.randomUUID().toString();
     }
 
-    VehicleType getVehicleType() {
+    public VehicleType getVehicleType() {
         return vehicleType;
     }
-    String getLicensePlateNumber() {
+    public String getLicensePlateNumber() {
         return license_plate_number;
     }
 
